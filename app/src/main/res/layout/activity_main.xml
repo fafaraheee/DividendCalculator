@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_beige">
+
+    <!-- 1. Toolbar is now a direct child of RelativeLayout and fixed at the top -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/soft_green"
+        android:title="Dividend Calculator App"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- 2. ScrollView is positioned below the toolbar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:fillViewport="true">
+
+        <!-- 3. This LinearLayout now correctly centers its content in the remaining space -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- App Title -->
+
+            <!-- Input fields -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/dividend_calculator_app"
+                android:textColor="@color/text_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="insert all the details below"
+                android:textColor="@color/text_dark"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/edtInvested"
+                android:layout_width="250dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/soft_green"
+                android:hint="Invested Amount (RM)"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtRate"
+                android:layout_width="250dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="15dp"
+                android:backgroundTint="@color/soft_green"
+                android:hint="Annual Dividend Rate (%)"
+                android:inputType="numberDecimal"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/edtMonths"
+                android:layout_width="250dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/soft_green"
+                android:hint="Months Invested (1-12)"
+                android:inputType="number"
+                android:padding="10dp" />
+
+            <!-- Calculate Button -->
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="146dp"
+                android:layout_height="84dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/button_green"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Calculate"
+                android:textColor="@android:color/white" />
+
+            <!-- Result -->
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="272dp"
+                android:layout_height="56dp"
+                android:background="@color/soft_green"
+                android:gravity="center"
+                android:textColor="@color/text_dark"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

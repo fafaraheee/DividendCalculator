@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_beige">
+
+    <!-- 1. Toolbar is now a direct child of RelativeLayout and fixed at the top -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_about"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/soft_green"
+        android:title="About"
+        android:titleTextColor="@android:color/white"/>
+
+    <!-- 2. ScrollView holds the rest of the content and is positioned below the toolbar -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_about">
+
+        <!-- 3. Your original LinearLayout now sits inside the ScrollView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:text="About Author"
+                android:textSize="30sp"
+                android:textColor="@color/text_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="295dp"
+                android:layout_height="282dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/farah_pic" />
+
+            <TextView
+                android:text="Author: Farah Liyana Binti Nizamuddin"
+                android:textSize="25sp"
+                android:textColor="@color/text_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="Matric No: 2023423848"
+                android:textSize="25sp"
+                android:textColor="@color/text_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="Course: ICT602"
+                android:textSize="25sp"
+                android:textColor="@color/text_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="Copyright © 2025"
+                android:textSize="18sp"
+                android:textColor="@color/text_dark"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtGitHub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="GitHub Repository"
+                android:textColor="@color/button_green"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
