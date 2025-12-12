@@ -104,7 +104,7 @@ app/
 Your APK is included in:
 
 ```
-[/apk/DividendCalculator.apk]
+/apk/DividendCalculator.apk
 ```
 
 ---
