@@ -26,21 +26,21 @@ Total Dividend   = Monthly Dividend × Number of Months
 
 1️⃣ Home Page
 
-Input fields for Amount, Dividend Rate, and Months
-Calculate button
-Displays Monthly & Total Dividend
-Designed using XML with Material UI components
+-Input fields for Amount, Dividend Rate, and Months
+-Calculate button
+-Displays Monthly & Total Dividend
+-Designed using XML with Material UI components
 
 2️⃣ About Page
 
 Includes:
 
-Application logo
-Developer details
-Matric number
-Course information
-Copyright
-Clickable GitHub link
+-Application logo
+-Developer details
+-Matric number
+-Course information
+-Copyright
+-Clickable GitHub link
 
 ---
 
@@ -51,18 +51,18 @@ Uses Material Components, soft beige and green colors, and rounded UI elements
 Custom Toolbar and clean layout
 Includes Navigation Drawer with:
 
-  Home
-  About
+  -Home
+  -About
 
 ---
 
 🛠 **Technologies Used**
 
-Android Studio
-Java/Kotlin
-XML Layouts
-Material Design 3
-Navigation Drawer Component
+-Android Studio
+-Java/Kotlin
+-XML Layouts
+-Material Design 3
+-Navigation Drawer Component
 
 ---
 
