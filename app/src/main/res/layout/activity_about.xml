@@ -62,7 +62,7 @@
                 android:gravity="center"/>
 
             <TextView
-                android:text="Course: ICT602"
+                android:text="Course: CS240"
                 android:textSize="25sp"
                 android:textColor="@color/text_dark"
                 android:layout_width="match_parent"
