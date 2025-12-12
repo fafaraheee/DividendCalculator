@@ -1,9 +1,9 @@
-📱 Dividend Calculator App
+📱 **Dividend Calculator App**
 This Android application calculates the monthly and total dividend earned from a user’s investment. It is developed using Android Studio with a clean, modern, and responsive UI following mobile development best practices.
 
-✨ **Key Features
+✨ **Key Features**
 
-🧮 Dividend Calculation
+🧮 **Dividend Calculation**
 
 Users can input:
 
@@ -22,7 +22,7 @@ Monthly Dividend = (Rate / 100 / 12) × Invested Amount
 Total Dividend   = Monthly Dividend × Number of Months
 
 
-🏠 Application Pages
+🏠 **Application Pages**
 
 1️⃣ Home Page
 
@@ -44,7 +44,7 @@ Clickable GitHub link
 
 ---
 
-🎨 UI & Design Approach
+🎨 **UI & Design Approach**
 
 Built using Android Studio
 Uses Material Components, soft beige and green colors, and rounded UI elements
@@ -56,7 +56,7 @@ Includes Navigation Drawer with:
 
 ---
 
-🛠 Technologies Used
+🛠 **Technologies Used**
 
 Android Studio
 Java/Kotlin
@@ -79,7 +79,7 @@ app/
  └── AndroidManifest.xml
 ```
 
-📸 Screenshots
+📸 **Screenshots**
 
 🏠 Home Page
 
@@ -99,7 +99,7 @@ app/
 
 ---
 
-📦 APK File
+📦 **APK File**
 
 Your APK is included in:
 
@@ -109,7 +109,7 @@ Your APK is included in:
 
 ---
 
-🔗 GitHub Repository
+🔗 **GitHub Repository**
 
 Replace with your actual repository link:
 
@@ -117,7 +117,7 @@ Replace with your actual repository link:
 
 ---
 
-👩‍💻 Developer
+👩‍💻 **Developer**
 
 Name: Farah Liyana binti Nizamuddin
 Matric No: 2023423848
@@ -125,7 +125,7 @@ Course: CS240
 
 ---
 
-© Copyright
+© **Copyright**
 
 Copyright © 2025
 ---
