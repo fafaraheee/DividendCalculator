@@ -85,19 +85,19 @@ Replace your images after exporting real screenshots.
 
 🏠 Home Page
 
-![Home Page](screenshots/HOME INTERFACE.png)
+![Home Page](screenshots/home.png)
 
 ℹ️ About Page
 
-![About Page](screenshots/ABOUT INTERFACE.png)
+![About Page](screenshots/about.png)
 
 🧮 Sample Calculation
 
-![Calculation Example](screenshots/SAMPLE.png)
+![Calculation Example](screenshots/sample.png)
 
 🏠 Toolbar
 
-![Tollbar Example](screenshots/TOOLBAR.png)
+![Tollbar Example](screenshots/toolbar.png)
 
 ---
 
