@@ -81,8 +81,6 @@ app/
 
 📸 Screenshots
 
-Replace your images after exporting real screenshots.
-
 🏠 Home Page
 
 ![Home Page](screenshots/home.png)
@@ -106,7 +104,7 @@ Replace your images after exporting real screenshots.
 Your APK is included in:
 
 ```
-/apk/DividendCalculator.apk
+[/apk/DividendCalculator.apk]
 ```
 
 ---
@@ -115,7 +113,7 @@ Your APK is included in:
 
 Replace with your actual repository link:
 
-[https://github.com/your-username/DividendCalculatorApp](https://github.com/your-username/DividendCalculatorApp)
+[(https://github.com/fafaraheee/DividendCalculator)]
 
 ---
 
